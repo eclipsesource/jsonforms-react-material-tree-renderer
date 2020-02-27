@@ -4,7 +4,8 @@
 JSONForms eliminates the tedious task of writing fully-featured forms by hand by leveraging the capabilities of JSON, JSON Schema and Javascript.
 
 # Editor Package
-This repository contains a re-usable tree component that renders a tree-master-detail JSON editor.
+This repository showcases a re-usable tree component that renders a tree-master-detail JSON editor.
+
 The repository contains an IDE webcomponent that additionally configures 3 buttons to access the data shown in the tree:
 - A download button
 - An export button that shows the data in a dialog
@@ -12,22 +13,8 @@ The repository contains an IDE webcomponent that additionally configures 3 butto
 
 Additionally, the package contains a small runtime demo showing an editor for users and tasks.
 
-## Build
-Run `npm install` to install dependencies.
-Run `npm run build` to build the module. The build results are located in `/dist/`.
+The Editor Package was actively maintained with JSON Forms up until [version `2.3.2`](https://github.com/eclipsesource/jsonforms/tree/0cf18d3df877c5240188b0ae4e0d18e3638fc026).
 
-## Run Demo
-Run `npm run dev` to start the standalone editor. It is available at http://localhost:8080/
+## Professional support
 
-# License
-The JSONForms project is licensed under the MIT License. See the [LICENSE file](https://github.com/eclipsesource/jsonforms/blob/master/LICENSE) for more information.
-
-# Roadmap
-Our current roadmap is available [here](https://github.com/eclipsesource/jsonforms/blob/master/ROADMAP.md).
-
-# Development
-JSONForms is developed by [EclipseSource](https://eclipsesource.com).
-We are always very happy to have contributions, whether for trivial cleanups or big new features.
-
-# Migration
-If you are already using JSONForms 1, check our [migration guide](https://github.com/eclipsesource/jsonforms/blob/master/MIGRATION.md).
+[EclipseSource](https://eclipsesource.com/) also offers [professional support for JSON Forms](https://jsonforms.io/support).
